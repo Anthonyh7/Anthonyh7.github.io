@@ -1,0 +1,16 @@
+.red-square{
+    height:100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border:1px solid black;
+}
+body{
+    height:100%;
+}
+.inner-text{
+    width:960px;
+    /*border:1px solid black;*/
+    justify-content: center;
+ 
+}
