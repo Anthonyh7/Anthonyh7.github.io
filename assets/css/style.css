@@ -1,4 +1,4 @@
-.red-square{
+.center-div{
     height:100%;
     display: flex;
     align-items:center;
@@ -7,10 +7,40 @@
 }
 body{
     height:100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .inner-text{
     width:960px;
     /*border:1px solid black;*/
     justify-content: center;
  
+}
+.name{
+    width: 200px;
+    margin: 0px;
+    background-color: #4aaaa5;
+    text-align: center;
+    /*border:1px solid black;*/
+    padding:20px;
+    font-size:18pt;
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+.nav{
+    padding: 0%;
+    width: 710px;
+    margin: 0px;
+    display: inline-block;
+    text-align: right;
+}
+.about-me{
+    font-size: 18pt;
+    color: #4aaaa5;
+    padding: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+
 }
